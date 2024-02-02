@@ -15,6 +15,7 @@ export default {
 <template>
   <div class="container">
     <h1>Start</h1>
+    <router-view></router-view>
     <div>
       <AppMain />
     </div>
