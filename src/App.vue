@@ -1,24 +1,20 @@
 <script>
-import AppMain from './components/AppMain.vue';
+import AppHeader from './components/AppHeader.vue';
+
 export default {
   data() {
-    return {
-
-    }
+    return {}
   },
   components: {
-    AppMain,
-  }
+    AppHeader
+}
 }
 </script>
 
 <template>
+  <AppHeader />
   <div class="container">
-    <h1>Start</h1>
     <router-view></router-view>
-    <div>
-      <AppMain />
-    </div>
   </div>
 </template>
 
