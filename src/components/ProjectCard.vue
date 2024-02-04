@@ -28,6 +28,8 @@ export default {
                 {{ project.tecnology ? project.tecnology.name : "No Tecnology" }}</p>
             <p>Comment:
                 {{ project.comment ? project.comment : "No Comment" }}</p>
+
+                <router-link :to="{name: 'single-project', params: {slug: project.slug}}">Details</router-link>
         </div>
     </div>
 </template>
