@@ -8,7 +8,7 @@ export default {
           title: 'Home'
         },
         {
-          name: 'aboutUs',
+          name: 'about-us',
           title: 'About Us'
         },
       ]
