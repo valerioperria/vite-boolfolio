@@ -8,7 +8,7 @@ export default {
           title: 'Home'
         },
         {
-          name: 'about',
+          name: 'aboutUs',
           title: 'About Us'
         },
       ]
@@ -18,9 +18,9 @@ export default {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar bg-primary">
+  <nav class="navbar navbar-expand-lg bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Boolpress</a>
+      <a class="navbar-brand" href="#" style="color: white">Boolfolio</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -35,7 +35,7 @@ export default {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="ms-auto navbar-nav">
           <li class="nav-item" v-for="link in links" :key="link.title">
-            <router-link :to="{name: link.name}" class="nav-link">{{ link.title }}</router-link>
+            <router-link :to="{name: link.name}" class="nav-link" style="color: white">{{ link.title }}</router-link>
           </li>
         </ul>
       </div>
