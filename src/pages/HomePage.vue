@@ -21,7 +21,7 @@ export default {
 
 <template>
     <div class="container">
-        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3 my-4">
             <div v-for="project in projects" class="col" :key="project.id">
                 <ProjectCard :project="project" />
             </div>
